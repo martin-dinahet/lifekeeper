@@ -1,0 +1,22 @@
+{
+  "name": "@packages/api-client",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc -b --watch",
+    "build": "tsc -b",
+    "typecheck": "tsc --noEmit"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "hono": "^4.12.27"
+  },
+  "devDependencies": {
+    "@services/api": "workspace:*",
+    "typescript": "^6.0.3"
+  }
+}
