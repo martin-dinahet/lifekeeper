@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "include": ["src"],
+  "references": [{ "path": "../env" }],
+  "compilerOptions": {
+    "types": ["node"],
+    "outDir": "dist",
+    "rootDir": "src"
+  }
+}
