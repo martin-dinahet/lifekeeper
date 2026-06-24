@@ -1,0 +1,22 @@
+{
+  "name": "@packages/env",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc -b --watch",
+    "build": "tsc -b",
+    "typecheck": "tsc --noEmit"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "typescript": "^6.0.3"
+  }
+}
