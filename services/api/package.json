@@ -14,6 +14,8 @@
     }
   },
   "dependencies": {
+    "@packages/feature-auth": "workspace:*",
+    "@packages/feature-notes": "workspace:*",
     "@hono/node-server": "^2.0.6",
     "hono": "^4.12.27"
   },

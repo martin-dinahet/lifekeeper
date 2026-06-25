@@ -336,6 +336,12 @@ importers:
       '@hono/node-server':
         specifier: ^2.0.6
         version: 2.0.6(hono@4.12.27)
+      '@packages/feature-auth':
+        specifier: workspace:*
+        version: link:../../packages/feature-auth
+      '@packages/feature-notes':
+        specifier: workspace:*
+        version: link:../../packages/feature-notes
       hono:
         specifier: ^4.12.27
         version: 4.12.27
