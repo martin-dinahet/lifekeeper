@@ -1,0 +1,23 @@
+{
+  "name": "@packages/feature-notes",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc -b --watch",
+    "build": "tsc -b",
+    "typecheck": "tsc --noEmit"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "@packages/db": "workspace:*",
+    "hono": "^4.12.27"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "typescript": "^6.0.3"
+  }
+}

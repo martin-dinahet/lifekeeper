@@ -315,6 +315,22 @@ importers:
         specifier: ^6.0.3
         version: 6.0.3
 
+  packages/feature-notes:
+    dependencies:
+      '@packages/db':
+        specifier: workspace:*
+        version: link:../db
+      hono:
+        specifier: ^4.12.27
+        version: 4.12.27
+    devDependencies:
+      '@types/node':
+        specifier: ^26.0.0
+        version: 26.0.0
+      typescript:
+        specifier: ^6.0.3
+        version: 6.0.3
+
   services/api:
     dependencies:
       '@hono/node-server':
