@@ -1,5 +1,5 @@
 {
-  "name": "@packages/auth",
+  "name": "@packages/better-auth",
   "type": "module",
   "scripts": {
     "dev": "tsc -b --watch",
